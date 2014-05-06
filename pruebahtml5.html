@@ -2,24 +2,66 @@
 <html lang="es">
 <head>
 	<meta charset="utf-8" />
+    <meta name="description" content="Este sitio es una prueba de lo que estoy aprendiendo en html5" />
     <title>Web HTML 5</title>
+	<link rel="stylesheet" href="normalize.css">
+	<link rel="stylesheet" href="estilos.css">
 </head>
 <body>
 	<header>
-   	 <h1>Aprendiendo lo que falta</h1>
-    <nav></nav>
-    </header>
+   	 <figure id="logo">
+     	<img src="logo.png" />
+     </figure>
+     <h1>
+     MySite
+     </h1>
+     <figure id="avatar">
+     	<img src="avatar.jpg">
+     </figure>
+	</header>
+    <nav>
+    	<ul>
+        	<li><a href="#">Botón 1</a></li>
+            <li><a href="#">Botón 2</a></li>
+            <li><a href="#">Botón 3</a></li>
+            <li><a href="#">Botón 4</a></li>
+            <li id="publicar_nav"><a href="#">Entrar</a></li>
+        </ul>
+    </nav>
     <section>
-    	<article>
-<video id="video" width="640" height="320" controls>
-<source src="video.mp4 type=video/mp4; codecs='avc1,mp4a'" /> 
-<source src="video.webm type=video/webm; codecs='vp8,vorbis'" /> 
+    	<article class="item">
+			<figure class="image_item">
+            	<img src="image_item.jpg">
+            </figure>
+            <h2 class="title_item">
+            	<a href="#">
+            		Título artículo
+           		</a>
+            </h2>
+            	<div class="autor_item">
+                	por<a href="#">Nombre Apellido</a>
+                </div>
+                <div class="datos_item">
+                	<a href="#" class="tag_item">Stuff</a>
+                    <span class="fecha_item">hace <strong>5</strong> min</span>
+                    <a href="#" class="coments_item">60</a>
+                    <a href="#" class="save_item"></a>
+                </div>
+                <div class="votacion">
+                <a href="#" class="up"></a>
+                <a href="#" class="down"></a>
+                </div>
         </article>
     	<aside>(LOGIN)</aside>
         <article>(PROMOCIONES)</article>
     </section>
     <footer>
-    Legales e información adicional de interés
+    <p>
+	Legales e información adicional de interés
+	</p>
+	<p>
+	Daniel Quiceno	
+	</p>
     </footer>
     
 </body>
